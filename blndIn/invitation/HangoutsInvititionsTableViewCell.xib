@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="invhang" rowHeight="99" id="KGk-i7-Jjw" customClass="HangoutsInvititionsTableViewCell" customModule="blndIn" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zyad Galal Invites you to join Hangout" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="236" translatesAutoresizingMaskIntoConstraints="NO" id="kBv-cP-PtS">
+                        <rect key="frame" x="72" y="11" width="322" height="41"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="userimage" translatesAutoresizingMaskIntoConstraints="NO" id="XmU-fc-G7f">
+                        <rect key="frame" x="14" y="5" width="50" height="50"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="Cky-yy-lCD"/>
+                            <constraint firstAttribute="height" constant="50" id="dbm-gJ-blZ"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="siA-wR-Ogp">
+                        <rect key="frame" x="20" y="57" width="374" height="32"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2z-5F-Ccn">
+                                <rect key="frame" x="0.0" y="2" width="186" height="33"/>
+                                <color key="backgroundColor" red="0.0" green="0.80392156859999997" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Accept">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNH-EK-JcU">
+                                <rect key="frame" x="188" y="3" width="186" height="30"/>
+                                <color key="backgroundColor" red="0.65640798016802027" green="0.1154920601558148" blue="0.13393196039860131" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Reject">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gNH-EK-JcU" firstAttribute="leading" secondItem="c2z-5F-Ccn" secondAttribute="trailing" constant="2" id="bPG-bB-WVX"/>
+                            <constraint firstItem="c2z-5F-Ccn" firstAttribute="top" secondItem="siA-wR-Ogp" secondAttribute="top" constant="2" id="cJk-om-KXi"/>
+                            <constraint firstItem="gNH-EK-JcU" firstAttribute="top" secondItem="siA-wR-Ogp" secondAttribute="top" constant="3" id="jld-A0-svj"/>
+                            <constraint firstItem="c2z-5F-Ccn" firstAttribute="leading" secondItem="siA-wR-Ogp" secondAttribute="leading" id="lFW-jo-QyF"/>
+                            <constraint firstItem="c2z-5F-Ccn" firstAttribute="width" secondItem="gNH-EK-JcU" secondAttribute="width" id="siN-lN-xw6"/>
+                            <constraint firstAttribute="trailing" secondItem="gNH-EK-JcU" secondAttribute="trailing" id="xGb-1c-UaO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="kBv-cP-PtS" secondAttribute="trailing" constant="20" id="0bF-MU-KCR"/>
+                    <constraint firstAttribute="bottom" secondItem="siA-wR-Ogp" secondAttribute="bottom" constant="10.5" id="G0I-lE-NSE"/>
+                    <constraint firstItem="kBv-cP-PtS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="72" id="WYD-jO-sw3"/>
+                    <constraint firstItem="siA-wR-Ogp" firstAttribute="top" secondItem="kBv-cP-PtS" secondAttribute="bottom" constant="5" id="ZMe-Hp-taV"/>
+                    <constraint firstAttribute="trailing" secondItem="siA-wR-Ogp" secondAttribute="trailing" constant="20" id="Zdx-SW-9kT"/>
+                    <constraint firstItem="XmU-fc-G7f" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="c2h-0W-M1r"/>
+                    <constraint firstItem="kBv-cP-PtS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="gGN-Xq-M8p"/>
+                    <constraint firstItem="siA-wR-Ogp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="owa-VG-6UR"/>
+                    <constraint firstItem="XmU-fc-G7f" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="zoN-id-dOH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="invititionText" destination="kBv-cP-PtS" id="zYc-FH-b3O"/>
+                <outlet property="userPic" destination="XmU-fc-G7f" id="bbu-aM-UXh"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="80"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="userimage" width="36" height="36"/>
+    </resources>
+</document>
