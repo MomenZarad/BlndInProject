@@ -211,13 +211,13 @@
 		32DD714D207ADFB500CC6B50 /* blndIn */ = {
 			isa = PBXGroup;
 			children = (
+				3292F23920940DBE00960742 /* OHCircleSegue.swift */,
 				3217F1AA209F19DA002FE300 /* places */,
 				329AE84D209E6AC90014A9C3 /* mySquadDetails */,
 				329AE837209E60490014A9C3 /* Notification */,
 				329AE835209E5E9F0014A9C3 /* mysquad chat */,
 				3206386C209A671C00AA474F /* let'sGo */,
 				32FFFFDD20990ABE00F052D2 /* profile */,
-				3292F23920940DBE00960742 /* OHCircleSegue.swift */,
 				32D1B5252094ECE300132502 /* invitation */,
 				3292F238209408E400960742 /* login */,
 				3292F2352093F84A00960742 /* hangout profile */,
