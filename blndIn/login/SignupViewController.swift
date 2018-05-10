@@ -10,8 +10,6 @@ import UIKit
 
 class SignupViewController: UIViewController {
 
-    
-  
     @IBAction func backBtn(_ sender: Any) {
         navigationController?.popViewController(animated: true)
         dismiss(animated: true, completion: nil)

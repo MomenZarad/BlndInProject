@@ -14,6 +14,7 @@
 		3217F1A7209F1905002FE300 /* InvitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217F1A6209F1905002FE300 /* InvitationViewController.swift */; };
 		3217F1A9209F19BB002FE300 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217F1A8209F19BB002FE300 /* PlacesViewController.swift */; };
 		3217F1AC209F1A9E002FE300 /* PlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217F1AB209F1A9E002FE300 /* PlacesTableViewCell.swift */; };
+		3261671120A097A300605104 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261671020A097A200605104 /* CustomAnnotation.swift */; };
 		3262ABE32093586D0078E4E3 /* MyhagoutDetalisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262ABE22093586D0078E4E3 /* MyhagoutDetalisViewController.swift */; };
 		3262ABE5209358860078E4E3 /* MyHangoutsPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262ABE4209358860078E4E3 /* MyHangoutsPostsViewController.swift */; };
 		3262ABE7209358A00078E4E3 /* MyHangoutsChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262ABE6209358A00078E4E3 /* MyHangoutsChatViewController.swift */; };
@@ -29,6 +30,7 @@
 		329AE84F209E6AF20014A9C3 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AE84E209E6AF20014A9C3 /* DetailsTableViewCell.swift */; };
 		329AE853209E6B610014A9C3 /* SquadDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AE852209E6B610014A9C3 /* SquadDetailsViewController.swift */; };
 		329AE855209E71E90014A9C3 /* MembersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AE854209E71E90014A9C3 /* MembersCollectionViewCell.swift */; };
+		329DC59A20A13CF200FF3CB9 /* CompleteProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329DC59920A13CF200FF3CB9 /* CompleteProfileViewController.swift */; };
 		32B211AB2089204600254128 /* MySquadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B211AA2089204600254128 /* MySquadViewController.swift */; };
 		32B211AD2089210900254128 /* MySquadCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B211AC2089210900254128 /* MySquadCollectionViewCell.swift */; };
 		32D1B5382095035A00132502 /* HangoutsInvititionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D1B5362095035A00132502 /* HangoutsInvititionsTableViewCell.swift */; };
@@ -55,6 +57,7 @@
 		3217F1A6209F1905002FE300 /* InvitationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationViewController.swift; sourceTree = "<group>"; };
 		3217F1A8209F19BB002FE300 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlacesViewController.swift; path = blndIn/places/PlacesViewController.swift; sourceTree = SOURCE_ROOT; };
 		3217F1AB209F1A9E002FE300 /* PlacesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewCell.swift; sourceTree = "<group>"; };
+		3261671020A097A200605104 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		3262ABE22093586D0078E4E3 /* MyhagoutDetalisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyhagoutDetalisViewController.swift; sourceTree = "<group>"; };
 		3262ABE4209358860078E4E3 /* MyHangoutsPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHangoutsPostsViewController.swift; sourceTree = "<group>"; };
 		3262ABE6209358A00078E4E3 /* MyHangoutsChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHangoutsChatViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +73,7 @@
 		329AE84E209E6AF20014A9C3 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
 		329AE852209E6B610014A9C3 /* SquadDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadDetailsViewController.swift; sourceTree = "<group>"; };
 		329AE854209E71E90014A9C3 /* MembersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersCollectionViewCell.swift; sourceTree = "<group>"; };
+		329DC59920A13CF200FF3CB9 /* CompleteProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteProfileViewController.swift; sourceTree = "<group>"; };
 		32B211AA2089204600254128 /* MySquadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySquadViewController.swift; sourceTree = "<group>"; };
 		32B211AC2089210900254128 /* MySquadCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySquadCollectionViewCell.swift; sourceTree = "<group>"; };
 		32D1B5362095035A00132502 /* HangoutsInvititionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangoutsInvititionsTableViewCell.swift; sourceTree = "<group>"; };
@@ -113,10 +117,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3204AE63209F672D00268FD2 /* My Squad */ = {
+			isa = PBXGroup;
+			children = (
+				32B211AA2089204600254128 /* MySquadViewController.swift */,
+				32B211AC2089210900254128 /* MySquadCollectionViewCell.swift */,
+			);
+			path = "My Squad";
+			sourceTree = "<group>";
+		};
 		3206386C209A671C00AA474F /* let'sGo */ = {
 			isa = PBXGroup;
 			children = (
 				3206386D209A674700AA474F /* letsGoMapViewController.swift */,
+				3261671020A097A200605104 /* CustomAnnotation.swift */,
 			);
 			path = "let'sGo";
 			sourceTree = "<group>";
@@ -180,6 +194,14 @@
 			path = mySquadDetails;
 			sourceTree = "<group>";
 		};
+		329DC59820A1398A00FF3CB9 /* Complete Profile */ = {
+			isa = PBXGroup;
+			children = (
+				329DC59920A13CF200FF3CB9 /* CompleteProfileViewController.swift */,
+			);
+			path = "Complete Profile";
+			sourceTree = "<group>";
+		};
 		32D1B5252094ECE300132502 /* invitation */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +243,8 @@
 				32D1B5252094ECE300132502 /* invitation */,
 				3292F238209408E400960742 /* login */,
 				3292F2352093F84A00960742 /* hangout profile */,
+				329DC59820A1398A00FF3CB9 /* Complete Profile */,
+				3204AE63209F672D00268FD2 /* My Squad */,
 				32DD714E207ADFB500CC6B50 /* AppDelegate.swift */,
 				32DD7152207ADFB500CC6B50 /* Main.storyboard */,
 				32DD7158207ADFB500CC6B50 /* Assets.xcassets */,
@@ -232,8 +256,6 @@
 				3211C6E12086496A0070602C /* HangsViewController.swift */,
 				3211C6E320864CC70070602C /* HangTableViewCell.swift */,
 				327FB7B820883DA8003E2168 /* CreatePostViewController.swift */,
-				32B211AA2089204600254128 /* MySquadViewController.swift */,
-				32B211AC2089210900254128 /* MySquadCollectionViewCell.swift */,
 			);
 			path = blndIn;
 			sourceTree = "<group>";
@@ -268,6 +290,7 @@
 				32DD7148207ADFB500CC6B50 /* Frameworks */,
 				32DD7149207ADFB500CC6B50 /* Resources */,
 				52454DE94E3992B88197EBAA /* [CP] Embed Pods Frameworks */,
+				655DB0866C5AFFDC8013A2A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -346,6 +369,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blndIn/Pods-blndIn-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		655DB0866C5AFFDC8013A2A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blndIn/Pods-blndIn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BDC4F1F2DADCE93C2CC8D707 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,6 +426,8 @@
 				32DD7151207ADFB500CC6B50 /* ViewController.swift in Sources */,
 				3217F1AC209F1A9E002FE300 /* PlacesTableViewCell.swift in Sources */,
 				3211C6E420864CC70070602C /* HangTableViewCell.swift in Sources */,
+				329DC59A20A13CF200FF3CB9 /* CompleteProfileViewController.swift in Sources */,
+				3261671120A097A300605104 /* CustomAnnotation.swift in Sources */,
 				329AE83B209E61E80014A9C3 /* NotificationTableViewCell.swift in Sources */,
 				3262ABE32093586D0078E4E3 /* MyhagoutDetalisViewController.swift in Sources */,
 				3217F1A7209F1905002FE300 /* InvitationViewController.swift in Sources */,
@@ -541,11 +581,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
+				DEVELOPMENT_TEAM = N3XSVDV2QH;
 				INFOPLIST_FILE = blndIn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zyadgalal.blndIn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MomenZarad.blndIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -558,11 +598,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
+				DEVELOPMENT_TEAM = N3XSVDV2QH;
 				INFOPLIST_FILE = blndIn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zyadgalal.blndIn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MomenZarad.blndIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

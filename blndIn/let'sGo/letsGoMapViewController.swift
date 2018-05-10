@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class letsGoMapViewController: UIViewController , UIPickerViewDelegate , UIPickerViewDataSource{
+class letsGoMapViewController: UIViewController , UIPickerViewDelegate , UIPickerViewDataSource , MKMapViewDelegate{
     
     
     @IBOutlet weak var letsGoMap: MKMapView!
@@ -34,8 +34,12 @@ class letsGoMapViewController: UIViewController , UIPickerViewDelegate , UIPicke
         letsgoBtn.layer.cornerRadius = 10
         ActivityPickerView.dataSource = self
         ActivityPickerView.delegate = self
-        letsGoMap.isUserInteractionEnabled = false 		
+        letsGoMap.isUserInteractionEnabled = false
+        letsGoMap.delegate = self
+        
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
