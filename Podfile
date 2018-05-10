@@ -7,4 +7,5 @@ target 'blndIn' do
 
   # Pods for blndIn
 pod 'XLPagerTabStrip'
+pod 'GoogleMaps'
 end

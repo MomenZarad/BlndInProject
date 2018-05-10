@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		3206386E209A674700AA474F /* letsGoMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3206386D209A674700AA474F /* letsGoMapViewController.swift */; };
 		320AFA3C20973A850016291D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320AFA3B20973A850016291D /* ProfileViewController.swift */; };
+		320EDFA320A10DF500C2C845 /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320EDFA220A10DF500C2C845 /* CustomMarkerView.swift */; };
 		3211C6E22086496A0070602C /* HangsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3211C6E12086496A0070602C /* HangsViewController.swift */; };
 		3211C6E420864CC70070602C /* HangTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3211C6E320864CC70070602C /* HangTableViewCell.swift */; };
 		3217F1A7209F1905002FE300 /* InvitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217F1A6209F1905002FE300 /* InvitationViewController.swift */; };
 		3217F1A9209F19BB002FE300 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217F1A8209F19BB002FE300 /* PlacesViewController.swift */; };
 		3217F1AC209F1A9E002FE300 /* PlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217F1AB209F1A9E002FE300 /* PlacesTableViewCell.swift */; };
+		323E0DFE20A1CA54009210DD /* CreateHangInvitationsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E0DFD20A1CA54009210DD /* CreateHangInvitationsCollectionViewCell.swift */; };
 		3262ABE32093586D0078E4E3 /* MyhagoutDetalisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262ABE22093586D0078E4E3 /* MyhagoutDetalisViewController.swift */; };
 		3262ABE5209358860078E4E3 /* MyHangoutsPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262ABE4209358860078E4E3 /* MyHangoutsPostsViewController.swift */; };
 		3262ABE7209358A00078E4E3 /* MyHangoutsChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262ABE6209358A00078E4E3 /* MyHangoutsChatViewController.swift */; };
@@ -43,18 +45,20 @@
 		32EBBA3920846E9800003E9F /* postsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBBA3820846E9800003E9F /* postsTableViewCell.swift */; };
 		32FFFFE020990AEB00F052D2 /* ProPostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FFFFDE20990AEB00F052D2 /* ProPostsTableViewCell.swift */; };
 		32FFFFE120990AEB00F052D2 /* PostsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FFFFDF20990AEB00F052D2 /* PostsTableViewCell.xib */; };
-		D263F3520C9051A99B200F95 /* Pods_blndIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C130DBDC9F1D3D93D6B86257 /* Pods_blndIn.framework */; };
+		CAF705ECFF39CE8C213E4063 /* Pods_blndIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FC09353C8EB277FD951DBE /* Pods_blndIn.framework */; };
 		F5EFF284207C4AF200FEE359 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EFF283207C4AF200FEE359 /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3206386D209A674700AA474F /* letsGoMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = letsGoMapViewController.swift; sourceTree = "<group>"; };
 		320AFA3B20973A850016291D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		320EDFA220A10DF500C2C845 /* CustomMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
 		3211C6E12086496A0070602C /* HangsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangsViewController.swift; sourceTree = "<group>"; };
 		3211C6E320864CC70070602C /* HangTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangTableViewCell.swift; sourceTree = "<group>"; };
 		3217F1A6209F1905002FE300 /* InvitationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationViewController.swift; sourceTree = "<group>"; };
 		3217F1A8209F19BB002FE300 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlacesViewController.swift; path = blndIn/places/PlacesViewController.swift; sourceTree = SOURCE_ROOT; };
 		3217F1AB209F1A9E002FE300 /* PlacesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewCell.swift; sourceTree = "<group>"; };
+		323E0DFD20A1CA54009210DD /* CreateHangInvitationsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHangInvitationsCollectionViewCell.swift; sourceTree = "<group>"; };
 		3262ABE22093586D0078E4E3 /* MyhagoutDetalisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyhagoutDetalisViewController.swift; sourceTree = "<group>"; };
 		3262ABE4209358860078E4E3 /* MyHangoutsPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHangoutsPostsViewController.swift; sourceTree = "<group>"; };
 		3262ABE6209358A00078E4E3 /* MyHangoutsChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHangoutsChatViewController.swift; sourceTree = "<group>"; };
@@ -86,9 +90,9 @@
 		32EBBA3820846E9800003E9F /* postsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postsTableViewCell.swift; sourceTree = "<group>"; };
 		32FFFFDE20990AEB00F052D2 /* ProPostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProPostsTableViewCell.swift; sourceTree = "<group>"; };
 		32FFFFDF20990AEB00F052D2 /* PostsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostsTableViewCell.xib; sourceTree = "<group>"; };
-		C130DBDC9F1D3D93D6B86257 /* Pods_blndIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_blndIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC4CA43F25B309B2D317CA3F /* Pods-blndIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blndIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-blndIn/Pods-blndIn.debug.xcconfig"; sourceTree = "<group>"; };
-		F0F201D5EF86C108C7FA547B /* Pods-blndIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blndIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-blndIn/Pods-blndIn.release.xcconfig"; sourceTree = "<group>"; };
+		3992826B5CE61E0A7CE82F0A /* Pods-blndIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blndIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-blndIn/Pods-blndIn.release.xcconfig"; sourceTree = "<group>"; };
+		41B35AFD36E39581AE481592 /* Pods-blndIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blndIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-blndIn/Pods-blndIn.debug.xcconfig"; sourceTree = "<group>"; };
+		B9FC09353C8EB277FD951DBE /* Pods_blndIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_blndIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EFF283207C4AF200FEE359 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,26 +101,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D263F3520C9051A99B200F95 /* Pods_blndIn.framework in Frameworks */,
+				CAF705ECFF39CE8C213E4063 /* Pods_blndIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		255F6BB2D1382FF9FBBD3633 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DC4CA43F25B309B2D317CA3F /* Pods-blndIn.debug.xcconfig */,
-				F0F201D5EF86C108C7FA547B /* Pods-blndIn.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		3206386C209A671C00AA474F /* let'sGo */ = {
 			isa = PBXGroup;
 			children = (
 				3206386D209A674700AA474F /* letsGoMapViewController.swift */,
+				320EDFA220A10DF500C2C845 /* CustomMarkerView.swift */,
+				323E0DFD20A1CA54009210DD /* CreateHangInvitationsCollectionViewCell.swift */,
 			);
 			path = "let'sGo";
 			sourceTree = "<group>";
@@ -195,8 +192,8 @@
 			children = (
 				32DD714D207ADFB500CC6B50 /* blndIn */,
 				32DD714C207ADFB500CC6B50 /* Products */,
-				255F6BB2D1382FF9FBBD3633 /* Pods */,
-				857C3FBDFE3487463CC2D2CA /* Frameworks */,
+				C21134680E85E7C23C66340C /* Pods */,
+				A71E2BACC1EF1A6EE5D4C91A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -248,12 +245,21 @@
 			path = profile;
 			sourceTree = "<group>";
 		};
-		857C3FBDFE3487463CC2D2CA /* Frameworks */ = {
+		A71E2BACC1EF1A6EE5D4C91A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C130DBDC9F1D3D93D6B86257 /* Pods_blndIn.framework */,
+				B9FC09353C8EB277FD951DBE /* Pods_blndIn.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C21134680E85E7C23C66340C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41B35AFD36E39581AE481592 /* Pods-blndIn.debug.xcconfig */,
+				3992826B5CE61E0A7CE82F0A /* Pods-blndIn.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,11 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32DD7160207ADFB500CC6B50 /* Build configuration list for PBXNativeTarget "blndIn" */;
 			buildPhases = (
-				BDC4F1F2DADCE93C2CC8D707 /* [CP] Check Pods Manifest.lock */,
+				AE012667BAA94BA325A1FD3D /* [CP] Check Pods Manifest.lock */,
 				32DD7147207ADFB500CC6B50 /* Sources */,
 				32DD7148207ADFB500CC6B50 /* Frameworks */,
 				32DD7149207ADFB500CC6B50 /* Resources */,
-				52454DE94E3992B88197EBAA /* [CP] Embed Pods Frameworks */,
+				6C6C20B58F7DAAB06585666D /* [CP] Embed Pods Frameworks */,
+				F7D346C0B9BFA54364FBD7C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -328,7 +335,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		52454DE94E3992B88197EBAA /* [CP] Embed Pods Frameworks */ = {
+		6C6C20B58F7DAAB06585666D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,7 +353,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blndIn/Pods-blndIn-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BDC4F1F2DADCE93C2CC8D707 /* [CP] Check Pods Manifest.lock */ = {
+		AE012667BAA94BA325A1FD3D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -362,6 +369,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D346C0B9BFA54364FBD7C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-blndIn/Pods-blndIn-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blndIn/Pods-blndIn-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -396,7 +421,9 @@
 				32DD714F207ADFB500CC6B50 /* AppDelegate.swift in Sources */,
 				32EBBA3720846D7400003E9F /* NewsFeedViewController.swift in Sources */,
 				327FB7B920883DA8003E2168 /* CreatePostViewController.swift in Sources */,
+				323E0DFE20A1CA54009210DD /* CreateHangInvitationsCollectionViewCell.swift in Sources */,
 				329AE848209E699C0014A9C3 /* RecieverTableViewCell.swift in Sources */,
+				320EDFA320A10DF500C2C845 /* CustomMarkerView.swift in Sources */,
 				32B211AD2089210900254128 /* MySquadCollectionViewCell.swift in Sources */,
 				329AE84A209E69D00014A9C3 /* senderTableViewCell.swift in Sources */,
 				32EBBA3920846E9800003E9F /* postsTableViewCell.swift in Sources */,
@@ -537,7 +564,7 @@
 		};
 		32DD7161207ADFB500CC6B50 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC4CA43F25B309B2D317CA3F /* Pods-blndIn.debug.xcconfig */;
+			baseConfigurationReference = 41B35AFD36E39581AE481592 /* Pods-blndIn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,7 +581,7 @@
 		};
 		32DD7162207ADFB500CC6B50 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0F201D5EF86C108C7FA547B /* Pods-blndIn.release.xcconfig */;
+			baseConfigurationReference = 3992826B5CE61E0A7CE82F0A /* Pods-blndIn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

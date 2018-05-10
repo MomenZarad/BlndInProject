@@ -1,16 +1,24 @@
 PODS:
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
   - XLPagerTabStrip (8.0.1)
 
 DEPENDENCIES:
+  - GoogleMaps
   - XLPagerTabStrip
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - GoogleMaps
     - XLPagerTabStrip
 
 SPEC CHECKSUMS:
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
   XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
 
-PODFILE CHECKSUM: d3eb3db3c16d0a3bdb2e294b0e09f8c9a09f594f
+PODFILE CHECKSUM: d500e50267d7ccdcb0eab2c8f821c74fb6fa117b
 
 COCOAPODS: 1.5.0
