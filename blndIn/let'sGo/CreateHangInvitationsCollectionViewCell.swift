@@ -13,4 +13,6 @@ class CreateHangInvitationsCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var View: UIView!
     @IBOutlet weak var usrImg: UIImageView!
     @IBOutlet weak var usrName: UILabel!
+
+
 }
