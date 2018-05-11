@@ -10,15 +10,10 @@ DEPENDENCIES:
   - GoogleMaps
   - XLPagerTabStrip
 
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - GoogleMaps
-    - XLPagerTabStrip
-
 SPEC CHECKSUMS:
   GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
   XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
 
 PODFILE CHECKSUM: d500e50267d7ccdcb0eab2c8f821c74fb6fa117b
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.4.0

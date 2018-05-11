@@ -62,7 +62,7 @@ class HangsViewController: UIViewController ,UITableViewDelegate , UITableViewDa
         gradient.frame = cell.hangUIview.bounds
         gradient.colors = [UIColor(red:0.00, green:0.00, blue:0.00, alpha:0.0).cgColor,UIColor(red:0.00, green:0.00, blue:0.00, alpha:0.5).cgColor ,UIColor(red:0.00, green:0.00, blue:0.00, alpha:1.00).cgColor,]
         cell.hangUIview.layer.insertSublayer(gradient, at: 0)
-        
+        cell.secondUIView.layer.insertSublayer(gradient, at: 0)
         //----------------------- view button
         cell.ViewBtn.layer.cornerRadius = 10
         return cell

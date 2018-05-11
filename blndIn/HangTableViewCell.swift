@@ -15,7 +15,7 @@ class HangTableViewCell: UITableViewCell {
     @IBOutlet weak var userLocation: UILabel!
     @IBOutlet weak var createdAt: UILabel!
     @IBOutlet weak var hangUIview: UIView!
-    
+    @IBOutlet weak var secondUIView: UIView!
     @IBOutlet weak var ViewBtn: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
