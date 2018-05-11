@@ -207,6 +207,59 @@
 			path = invitation;
 			sourceTree = "<group>";
 		};
+		32D8A9F320A5C3D000D4C418 /* Newsfeed */ = {
+			isa = PBXGroup;
+			children = (
+				32EBBA3620846D7400003E9F /* NewsFeedViewController.swift */,
+				327FB7B820883DA8003E2168 /* CreatePostViewController.swift */,
+				32EBBA3820846E9800003E9F /* postsTableViewCell.swift */,
+			);
+			path = Newsfeed;
+			sourceTree = "<group>";
+		};
+		32D8A9F420A5C5EB00D4C418 /* Hangs */ = {
+			isa = PBXGroup;
+			children = (
+				3211C6E320864CC70070602C /* HangTableViewCell.swift */,
+				3211C6E12086496A0070602C /* HangsViewController.swift */,
+			);
+			path = Hangs;
+			sourceTree = "<group>";
+		};
+		32D8A9F520A5C6D600D4C418 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		32D8A9F620A5C6DE00D4C418 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32D8A9F720A5C6E900D4C418 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3217F1AA209F19DA002FE300 /* places */,
+				329AE84D209E6AC90014A9C3 /* mySquadDetails */,
+				329AE837209E60490014A9C3 /* Notification */,
+				329AE835209E5E9F0014A9C3 /* mysquad chat */,
+				3206386C209A671C00AA474F /* let'sGo */,
+				32FFFFDD20990ABE00F052D2 /* profile */,
+				32D1B5252094ECE300132502 /* invitation */,
+				3292F238209408E400960742 /* login */,
+				3292F2352093F84A00960742 /* hangout profile */,
+				3201D5AC20A4CC5B007EA51D /* My Squad */,
+				3201D5AD20A4EBF7007EA51D /* Complete Profile */,
+				32D8A9F320A5C3D000D4C418 /* Newsfeed */,
+				32D8A9F420A5C5EB00D4C418 /* Hangs */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		32DD7142207ADFB500CC6B50 = {
 			isa = PBXGroup;
 			children = (
@@ -229,28 +282,15 @@
 			isa = PBXGroup;
 			children = (
 				3292F23920940DBE00960742 /* OHCircleSegue.swift */,
-				3201D5AD20A4EBF7007EA51D /* Complete Profile */,
-				3201D5AC20A4CC5B007EA51D /* My Squad */,
-				3217F1AA209F19DA002FE300 /* places */,
-				329AE84D209E6AC90014A9C3 /* mySquadDetails */,
-				329AE837209E60490014A9C3 /* Notification */,
-				329AE835209E5E9F0014A9C3 /* mysquad chat */,
-				3206386C209A671C00AA474F /* let'sGo */,
-				32FFFFDD20990ABE00F052D2 /* profile */,
-				32D1B5252094ECE300132502 /* invitation */,
-				3292F238209408E400960742 /* login */,
-				3292F2352093F84A00960742 /* hangout profile */,
+				32D8A9F720A5C6E900D4C418 /* View */,
+				32D8A9F620A5C6DE00D4C418 /* Model */,
+				32D8A9F520A5C6D600D4C418 /* Controller */,
 				32DD7152207ADFB500CC6B50 /* Main.storyboard */,
 				32DD7158207ADFB500CC6B50 /* Assets.xcassets */,
 				32DD715A207ADFB500CC6B50 /* LaunchScreen.storyboard */,
 				32DD714E207ADFB500CC6B50 /* AppDelegate.swift */,
 				32DD715D207ADFB500CC6B50 /* Info.plist */,
 				32DD7155207ADFB500CC6B50 /* blndIn.xcdatamodeld */,
-				32EBBA3620846D7400003E9F /* NewsFeedViewController.swift */,
-				32EBBA3820846E9800003E9F /* postsTableViewCell.swift */,
-				3211C6E12086496A0070602C /* HangsViewController.swift */,
-				3211C6E320864CC70070602C /* HangTableViewCell.swift */,
-				327FB7B820883DA8003E2168 /* CreatePostViewController.swift */,
 			);
 			path = blndIn;
 			sourceTree = "<group>";
