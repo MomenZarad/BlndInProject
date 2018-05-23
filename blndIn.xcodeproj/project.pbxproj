@@ -14,16 +14,23 @@
 		3211C6E22086496A0070602C /* HangsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3211C6E12086496A0070602C /* HangsViewController.swift */; };
 		3211C6E420864CC70070602C /* HangTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3211C6E320864CC70070602C /* HangTableViewCell.swift */; };
 		3217F1A7209F1905002FE300 /* InvitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217F1A6209F1905002FE300 /* InvitationViewController.swift */; };
-		3217F1A9209F19BB002FE300 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217F1A8209F19BB002FE300 /* PlacesViewController.swift */; };
 		3217F1AC209F1A9E002FE300 /* PlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217F1AB209F1A9E002FE300 /* PlacesTableViewCell.swift */; };
+		322F755320A8FF83006D745B /* HangoutStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F755220A8FF83006D745B /* HangoutStatusModel.swift */; };
 		323E0DFE20A1CA54009210DD /* CreateHangInvitationsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E0DFD20A1CA54009210DD /* CreateHangInvitationsCollectionViewCell.swift */; };
+		3252E00820A774B400A3E79C /* LetsGoNearbyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252E00720A774B400A3E79C /* LetsGoNearbyModel.swift */; };
 		3262ABE32093586D0078E4E3 /* MyhagoutDetalisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262ABE22093586D0078E4E3 /* MyhagoutDetalisViewController.swift */; };
 		3262ABE5209358860078E4E3 /* MyHangoutsPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262ABE4209358860078E4E3 /* MyHangoutsPostsViewController.swift */; };
 		3262ABE7209358A00078E4E3 /* MyHangoutsChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3262ABE6209358A00078E4E3 /* MyHangoutsChatViewController.swift */; };
 		327FB7B920883DA8003E2168 /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327FB7B820883DA8003E2168 /* CreatePostViewController.swift */; };
+		328D0FE120A916E200BACF89 /* hangdetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D0FE020A916E200BACF89 /* hangdetailsModel.swift */; };
+		328D0FE320A942A800BACF89 /* myHangsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328D0FE220A942A800BACF89 /* myHangsModel.swift */; };
 		3292F2342093DC6000960742 /* HangoutProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292F2332093DC6000960742 /* HangoutProfileViewController.swift */; };
 		3292F2372093F89E00960742 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292F2362093F89E00960742 /* ProfileCollectionViewCell.swift */; };
 		3292F23A20940DBE00960742 /* OHCircleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292F23920940DBE00960742 /* OHCircleSegue.swift */; };
+		329744F220A611BB00AD7B3C /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329744F120A611BB00AD7B3C /* PlacesViewController.swift */; };
+		329744F420A6263C00AD7B3C /* loginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329744F320A6263C00AD7B3C /* loginModel.swift */; };
+		329744F720A6643F00AD7B3C /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329744F620A6643F00AD7B3C /* SafariServices.framework */; };
+		329744F920A6750500AD7B3C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 329744F820A6750400AD7B3C /* GoogleService-Info.plist */; };
 		329AE839209E60950014A9C3 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AE838209E60950014A9C3 /* NotificationViewController.swift */; };
 		329AE83B209E61E80014A9C3 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AE83A209E61E80014A9C3 /* NotificationTableViewCell.swift */; };
 		329AE848209E699C0014A9C3 /* RecieverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AE847209E699C0014A9C3 /* RecieverTableViewCell.swift */; };
@@ -34,6 +41,9 @@
 		329AE855209E71E90014A9C3 /* MembersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AE854209E71E90014A9C3 /* MembersCollectionViewCell.swift */; };
 		32B211AB2089204600254128 /* MySquadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B211AA2089204600254128 /* MySquadViewController.swift */; };
 		32B211AD2089210900254128 /* MySquadCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B211AC2089210900254128 /* MySquadCollectionViewCell.swift */; };
+		32C991F820A959CB008E2205 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C991F720A959CB008E2205 /* SignUp.swift */; };
+		32C991FA20A95AC8008E2205 /* PostsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C991F920A95AC8008E2205 /* PostsModel.swift */; };
+		32C991FC20A95B12008E2205 /* squadchatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C991FB20A95B12008E2205 /* squadchatModel.swift */; };
 		32D1B5382095035A00132502 /* HangoutsInvititionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D1B5362095035A00132502 /* HangoutsInvititionsTableViewCell.swift */; };
 		32D1B5392095035A00132502 /* HangoutsInvititionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32D1B5372095035A00132502 /* HangoutsInvititionsTableViewCell.xib */; };
 		32DD714F207ADFB500CC6B50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD714E207ADFB500CC6B50 /* AppDelegate.swift */; };
@@ -58,16 +68,23 @@
 		3211C6E12086496A0070602C /* HangsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangsViewController.swift; sourceTree = "<group>"; };
 		3211C6E320864CC70070602C /* HangTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangTableViewCell.swift; sourceTree = "<group>"; };
 		3217F1A6209F1905002FE300 /* InvitationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationViewController.swift; sourceTree = "<group>"; };
-		3217F1A8209F19BB002FE300 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlacesViewController.swift; path = blndIn/places/PlacesViewController.swift; sourceTree = SOURCE_ROOT; };
 		3217F1AB209F1A9E002FE300 /* PlacesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewCell.swift; sourceTree = "<group>"; };
+		322F755220A8FF83006D745B /* HangoutStatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangoutStatusModel.swift; sourceTree = "<group>"; };
 		323E0DFD20A1CA54009210DD /* CreateHangInvitationsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHangInvitationsCollectionViewCell.swift; sourceTree = "<group>"; };
+		3252E00720A774B400A3E79C /* LetsGoNearbyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsGoNearbyModel.swift; sourceTree = "<group>"; };
 		3262ABE22093586D0078E4E3 /* MyhagoutDetalisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyhagoutDetalisViewController.swift; sourceTree = "<group>"; };
 		3262ABE4209358860078E4E3 /* MyHangoutsPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHangoutsPostsViewController.swift; sourceTree = "<group>"; };
 		3262ABE6209358A00078E4E3 /* MyHangoutsChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHangoutsChatViewController.swift; sourceTree = "<group>"; };
 		327FB7B820883DA8003E2168 /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
+		328D0FE020A916E200BACF89 /* hangdetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hangdetailsModel.swift; sourceTree = "<group>"; };
+		328D0FE220A942A800BACF89 /* myHangsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myHangsModel.swift; sourceTree = "<group>"; };
 		3292F2332093DC6000960742 /* HangoutProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangoutProfileViewController.swift; sourceTree = "<group>"; };
 		3292F2362093F89E00960742 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		3292F23920940DBE00960742 /* OHCircleSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OHCircleSegue.swift; sourceTree = "<group>"; };
+		329744F120A611BB00AD7B3C /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		329744F320A6263C00AD7B3C /* loginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = loginModel.swift; path = blndIn/Model/loginModel.swift; sourceTree = SOURCE_ROOT; };
+		329744F620A6643F00AD7B3C /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		329744F820A6750400AD7B3C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		329AE838209E60950014A9C3 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		329AE83A209E61E80014A9C3 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
 		329AE847209E699C0014A9C3 /* RecieverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieverTableViewCell.swift; sourceTree = "<group>"; };
@@ -78,6 +95,9 @@
 		329AE854209E71E90014A9C3 /* MembersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersCollectionViewCell.swift; sourceTree = "<group>"; };
 		32B211AA2089204600254128 /* MySquadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySquadViewController.swift; sourceTree = "<group>"; };
 		32B211AC2089210900254128 /* MySquadCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySquadCollectionViewCell.swift; sourceTree = "<group>"; };
+		32C991F720A959CB008E2205 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		32C991F920A95AC8008E2205 /* PostsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsModel.swift; sourceTree = "<group>"; };
+		32C991FB20A95B12008E2205 /* squadchatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squadchatModel.swift; sourceTree = "<group>"; };
 		32D1B5362095035A00132502 /* HangoutsInvititionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangoutsInvititionsTableViewCell.swift; sourceTree = "<group>"; };
 		32D1B5372095035A00132502 /* HangoutsInvititionsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HangoutsInvititionsTableViewCell.xib; sourceTree = "<group>"; };
 		32DD714B207ADFB500CC6B50 /* blndIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blndIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329744F720A6643F00AD7B3C /* SafariServices.framework in Frameworks */,
 				CAF705ECFF39CE8C213E4063 /* Pods_blndIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +162,8 @@
 		3217F1AA209F19DA002FE300 /* places */ = {
 			isa = PBXGroup;
 			children = (
-				3217F1A8209F19BB002FE300 /* PlacesViewController.swift */,
 				3217F1AB209F1A9E002FE300 /* PlacesTableViewCell.swift */,
+				329744F120A611BB00AD7B3C /* PlacesViewController.swift */,
 			);
 			path = places;
 			sourceTree = "<group>";
@@ -166,6 +187,21 @@
 				F5EFF283207C4AF200FEE359 /* SignupViewController.swift */,
 			);
 			path = login;
+			sourceTree = "<group>";
+		};
+		329744F520A6264500AD7B3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				329744F320A6263C00AD7B3C /* loginModel.swift */,
+				3252E00720A774B400A3E79C /* LetsGoNearbyModel.swift */,
+				322F755220A8FF83006D745B /* HangoutStatusModel.swift */,
+				328D0FE020A916E200BACF89 /* hangdetailsModel.swift */,
+				328D0FE220A942A800BACF89 /* myHangsModel.swift */,
+				32C991F720A959CB008E2205 /* SignUp.swift */,
+				32C991F920A95AC8008E2205 /* PostsModel.swift */,
+				32C991FB20A95B12008E2205 /* squadchatModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		329AE835209E5E9F0014A9C3 /* mysquad chat */ = {
@@ -226,13 +262,6 @@
 			path = Hangs;
 			sourceTree = "<group>";
 		};
-		32D8A9F520A5C6D600D4C418 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		32D8A9F620A5C6DE00D4C418 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,15 +310,16 @@
 		32DD714D207ADFB500CC6B50 /* blndIn */ = {
 			isa = PBXGroup;
 			children = (
+				329744F520A6264500AD7B3C /* Model */,
 				3292F23920940DBE00960742 /* OHCircleSegue.swift */,
 				32D8A9F720A5C6E900D4C418 /* View */,
 				32D8A9F620A5C6DE00D4C418 /* Model */,
-				32D8A9F520A5C6D600D4C418 /* Controller */,
-				32DD7152207ADFB500CC6B50 /* Main.storyboard */,
 				32DD7158207ADFB500CC6B50 /* Assets.xcassets */,
+				32DD7152207ADFB500CC6B50 /* Main.storyboard */,
 				32DD715A207ADFB500CC6B50 /* LaunchScreen.storyboard */,
 				32DD714E207ADFB500CC6B50 /* AppDelegate.swift */,
 				32DD715D207ADFB500CC6B50 /* Info.plist */,
+				329744F820A6750400AD7B3C /* GoogleService-Info.plist */,
 				32DD7155207ADFB500CC6B50 /* blndIn.xcdatamodeld */,
 			);
 			path = blndIn;
@@ -308,6 +338,7 @@
 		A71E2BACC1EF1A6EE5D4C91A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				329744F620A6643F00AD7B3C /* SafariServices.framework */,
 				B9FC09353C8EB277FD951DBE /* Pods_blndIn.framework */,
 			);
 			name = Frameworks;
@@ -389,6 +420,7 @@
 				32D1B5392095035A00132502 /* HangoutsInvititionsTableViewCell.xib in Resources */,
 				32DD7159207ADFB500CC6B50 /* Assets.xcassets in Resources */,
 				32DD7154207ADFB500CC6B50 /* Main.storyboard in Resources */,
+				329744F920A6750500AD7B3C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,11 +434,39 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-blndIn/Pods-blndIn-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
 				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -439,10 +499,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-blndIn/Pods-blndIn-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -456,23 +520,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322F755320A8FF83006D745B /* HangoutStatusModel.swift in Sources */,
+				329744F220A611BB00AD7B3C /* PlacesViewController.swift in Sources */,
+				328D0FE120A916E200BACF89 /* hangdetailsModel.swift in Sources */,
 				3211C6E22086496A0070602C /* HangsViewController.swift in Sources */,
 				3262ABE7209358A00078E4E3 /* MyHangoutsChatViewController.swift in Sources */,
+				32C991FA20A95AC8008E2205 /* PostsModel.swift in Sources */,
 				329AE84C209E6A070014A9C3 /* MySquadChatViewController.swift in Sources */,
-				3217F1A9209F19BB002FE300 /* PlacesViewController.swift in Sources */,
 				320AFA3C20973A850016291D /* ProfileViewController.swift in Sources */,
 				3206386E209A674700AA474F /* letsGoMapViewController.swift in Sources */,
 				3292F2372093F89E00960742 /* ProfileCollectionViewCell.swift in Sources */,
 				329AE84F209E6AF20014A9C3 /* DetailsTableViewCell.swift in Sources */,
+				32C991F820A959CB008E2205 /* SignUp.swift in Sources */,
 				3262ABE5209358860078E4E3 /* MyHangoutsPostsViewController.swift in Sources */,
 				329AE839209E60950014A9C3 /* NotificationViewController.swift in Sources */,
 				32D1B5382095035A00132502 /* HangoutsInvititionsTableViewCell.swift in Sources */,
+				328D0FE320A942A800BACF89 /* myHangsModel.swift in Sources */,
 				3292F2342093DC6000960742 /* HangoutProfileViewController.swift in Sources */,
 				329AE855209E71E90014A9C3 /* MembersCollectionViewCell.swift in Sources */,
+				3252E00820A774B400A3E79C /* LetsGoNearbyModel.swift in Sources */,
 				32DD7157207ADFB500CC6B50 /* blndIn.xcdatamodeld in Sources */,
 				32DD7151207ADFB500CC6B50 /* ViewController.swift in Sources */,
 				3217F1AC209F1A9E002FE300 /* PlacesTableViewCell.swift in Sources */,
 				3211C6E420864CC70070602C /* HangTableViewCell.swift in Sources */,
+				329744F420A6263C00AD7B3C /* loginModel.swift in Sources */,
+				32C991FC20A95B12008E2205 /* squadchatModel.swift in Sources */,
 				3201D5AF20A4EC33007EA51D /* CompleteProfileViewController.swift in Sources */,
 				329AE83B209E61E80014A9C3 /* NotificationTableViewCell.swift in Sources */,
 				3262ABE32093586D0078E4E3 /* MyhagoutDetalisViewController.swift in Sources */,
@@ -629,11 +701,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N3XSVDV2QH;
+				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
 				INFOPLIST_FILE = blndIn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MomenZarad.blndIn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyadgalal.blndIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -646,11 +718,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N3XSVDV2QH;
+				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
 				INFOPLIST_FILE = blndIn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MomenZarad.blndIn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyadgalal.blndIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

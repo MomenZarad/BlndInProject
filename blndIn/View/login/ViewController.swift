@@ -7,13 +7,26 @@
 //
 
 import UIKit
+import Alamofire
+import SVProgressHUD
+import SwiftyJSON
+import FirebaseAuth
+import TwitterKit
+import FacebookLogin
+import FacebookCore
 
-class ViewController: UIViewController {
+class ViewController: UIViewController ,UITextFieldDelegate {
+    
+    
 
     @IBOutlet weak var loginView: UIView!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var emailTextFiled: UITextField!
     @IBOutlet weak var passwordTextFiled: UITextField!
+    @IBOutlet weak var twitterImgView: UIImageView!
+    @IBOutlet weak var facebookImgView: UIImageView!
+    
+   
     //create backgroud color of gradient
     func createGradientLayer(radius : CGFloat , shape :Bool) -> CAGradientLayer{
         
@@ -45,6 +58,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         //design of rect login view
         //------------------------------------------------------------------------
         //adding color to login view
@@ -69,11 +83,41 @@ class ViewController: UIViewController {
         passwordTextFiled.alpha = 0.5
         passwordTextFiled.borderStyle = UITextBorderStyle.none
         passwordTextFiled.layer.cornerRadius = 5
-        
+    
         //----------------------------------------------------------------------------
-
+       //twitter
+        twitterImgView.isUserInteractionEnabled = true
+        let twittertapRecognizer = UITapGestureRecognizer(target: self, action: #selector(TwitterimageTapped))
+        twitterImgView.addGestureRecognizer(twittertapRecognizer)
+        //facebook
+        facebookImgView.isUserInteractionEnabled = true
+        let facebooktapRecognizer = UITapGestureRecognizer(target: self, action: #selector(facebookImageTapped))
+        facebookImgView.addGestureRecognizer(facebooktapRecognizer)
+       //keyboard
+        emailTextFiled.delegate = self
+        passwordTextFiled.delegate = self
+        
     }
-
+    override func viewDidAppear(_ animated: Bool) {
+        //check if shared preferance has value
+        let preferences = UserDefaults.standard
+        
+        let currentLevelKey = "token"
+        if preferences.object(forKey: currentLevelKey) == nil {
+            //  Doesn't exist
+            print("erooooooooooooorrrororororororooro zyad galla")
+        } else {
+            let currentLevel = preferences.string(forKey: currentLevelKey)
+            
+            
+            performSegue(withIdentifier: "loggedIn", sender: self)
+            SVProgressHUD.show(withStatus: "Loading")
+        }
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -86,7 +130,165 @@ class ViewController: UIViewController {
     }
     
     @IBAction func LogInCliked(_ sender: Any) {
-        performSegue(withIdentifier: "tabLayoutseague", sender: self)
+        //networking
+        SVProgressHUD.show(withStatus: "Loading")
+        prepareForBeginNetworking()
+    
     }
+    //---------------------------------------------------
+    //Networking
+    let URL = "http://blndin.com:76/auth/login/regular"
+    func prepareForBeginNetworking()
+    {
+        
+        let username: String = emailTextFiled.text!
+        let password: String = passwordTextFiled.text!
+        let validate : Bool = validateinput(name: username, password: password)
+        if validate == true
+        {
+            let params :[String : String]=["username":username  , "password":password ]
+            createConnection(url: URL, parameters: params)
+        }
+        else
+        {
+            print("enter email and password")
+            SVProgressHUD.dismiss()
+        }
+    }
+    func validateinput(name : String , password : String) -> Bool
+    {
+        if name != "" && password != ""
+        {
+            return true
+        }
+        else
+        {
+            return false
+        }
+    }
+    func createConnection(url : String , parameters : [String : String])
+    {
+        Alamofire.request(url, method: .post, parameters: parameters,encoding: JSONEncoding.default, headers: nil).responseJSON {
+            response in
+            switch response.result {
+            case .success:
+                print(response)
+                let JSONResult : JSON = JSON(response.result.value!)
+                let status = JSONResult["status"].int
+                print(status)
+                if status == 200
+                {
+                self.parsingJSON(json: JSONResult)
+                }
+                else if status == 706
+                {
+                    print("email is already exists")
+                }
+                else
+                {
+                    print("invalid Username or password")
+                }
+                SVProgressHUD.dismiss()
+                
+                break
+            case .failure(let error):
+                
+                print(error)
+                SVProgressHUD.dismiss()
+            }
+        }
+    }
+    
+    //MARK: - JSON Parsing
+    /***************************************************************/
+    
+    let loginmodel = loginModel()
+    //Write the updateWeatherData method here:
+    func parsingJSON(json:JSON)
+    {
+        loginmodel.token = json["payload"]["token"].stringValue
+        print(loginmodel.token)
+        let currentLevelKey = "token"
+        //shared preferance
+        let preferences = UserDefaults.standard
+        preferences.set(loginmodel.token, forKey: currentLevelKey)
+        let didSave = preferences.synchronize()
+        
+        if !didSave {
+            print("what is going on")
+        }
+       
+        SVProgressHUD.showSuccess(withStatus: "Opening")
+        SVProgressHUD.dismiss(withDelay: 2000)
+        performSegue(withIdentifier: "loggedIn", sender: self)
+
+    }
+    //firebase auth --------------------------
+    let firebaseauthURL = "http://blndin.com:76/auth/register/firebase"
+    //-----------twitter-------------------------------------------------
+    @objc func TwitterimageTapped(recognizer: UITapGestureRecognizer) {
+        print("Image was tapped")
+        let twitterBtn = TWTRLogInButton{(session, error) in
+            if error != nil {
+                print("twitter login error: \(String(describing: error?.localizedDescription))")
+            }
+            else{
+                guard let token = session?.authToken else{return}
+                guard let secret = session?.authTokenSecret else{return}
+                let credential = TwitterAuthProvider.credential(withToken: token, secret: secret)
+                Auth.auth().signInAndRetrieveData(with: credential, completion: { (user, error) in
+                    if error != nil {
+                        print("twitter login error with firebase: \(String(describing: error?.localizedDescription))")
+                        return
+                    }
+                    //prepare to connection
+                    let authid : String = (Auth.auth().currentUser?.uid)!
+                    let name :String = (Auth.auth().currentUser?.displayName)!
+                    let email :String = (Auth.auth().currentUser?.email)!
+                    let params :[String : String] = ["auth_id": authid , "name":name , "email":email]
+                    //create connection
+                    self.createConnection(url: self.firebaseauthURL, parameters: params)
+                    print(authid)
+                    print(name)
+                    print(email)
+                })
+            }
+        }
+        twitterBtn.sendActions(for: .touchUpInside)
+    }
+    //------------------facebook----------------------------------------------
+    @objc func facebookImageTapped(recognizer: UITapGestureRecognizer) {
+       let login = LoginManager()
+        login.logIn(readPermissions: [.publicProfile,.email], viewController: self) { (result) in
+            switch result {
+            case .success:
+                let accessToken = AccessToken.current
+                guard let accessTokenString = accessToken?.authenticationToken else {return}
+                let credentials = FacebookAuthProvider.credential(withAccessToken: accessTokenString)
+                Auth.auth().signInAndRetrieveData(with: credentials) { (user, error) in
+                    if error != nil {
+                        print("facebook login error with firebase: \(String(describing: error?.localizedDescription))")
+                        return
+                    }
+                    //prepare to connection
+                    let authid : String = (Auth.auth().currentUser?.uid)!
+                    let name :String = (Auth.auth().currentUser?.displayName)!
+                    let email :String = (Auth.auth().currentUser?.email)!
+                    let params :[String : String] = ["auth_id": authid , "name":name , "email":email]
+                    //create connection
+                    self.createConnection(url: self.firebaseauthURL, parameters: params)
+                    print(authid)
+                    print(name)
+                    print(email)
+                }
+            default:
+                break
+            }
+        }
+        
+        
+        
+    }
+    
 }
 

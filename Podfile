@@ -8,4 +8,13 @@ target 'blndIn' do
   # Pods for blndIn
 pod 'XLPagerTabStrip'
 pod 'GoogleMaps'
+pod 'Alamofire'
+pod 'SVProgressHUD'
+pod 'SwiftyJSON'
+pod 'TwitterKit'
+pod 'Firebase/Auth'
+pod 'Firebase/Core'
+pod 'FacebookCore'
+pod 'FacebookLogin'
+pod 'SDWebImage'
 end

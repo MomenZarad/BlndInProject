@@ -9,6 +9,13 @@
 import UIKit
 import CoreData
 import GoogleMaps
+import Firebase
+import FirebaseAuth
+import FirebaseCore
+import TwitterKit
+import FacebookCore
+import FacebookLogin
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -20,9 +27,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("Start ++++++++++++++++++++++++++")
         GMSServices.provideAPIKey("AIzaSyDWdl0Diu-Hmtny4l3mNOQPkyQcbTe4O48")
         print("end------------------------")
+        //--------------firebase configure ---------------
+        FirebaseApp.configure()
+        //----------- twitter login --------
+        TWTRTwitter.sharedInstance().start(withConsumerKey: "LUAP8dTEqfQe4Si3cS9rEgUMq", consumerSecret: "gphvq1ZubH0CvICnHF6XRkbKiPANwITQJvnOVlektLMMGnSg2u")
+        //-------------facebook login ---------
+        SDKApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
         return true
     }
-
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        let twitterLogin = TWTRTwitter.sharedInstance().application(app, open: url, options: options)
+        let facebooklogin = SDKApplicationDelegate.shared.application(app, open: url, options: options)
+        return twitterLogin || facebooklogin
+    }
+        
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

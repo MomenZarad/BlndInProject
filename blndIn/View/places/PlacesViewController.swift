@@ -9,7 +9,7 @@
 import UIKit
 
 class PlacesViewController: UIViewController,UITableViewDelegate , UITableViewDataSource  {
-
+    
     var placesimagearr = ["kappa","group","kappa","group","kappa"]
     @IBOutlet weak var placesTableView: UITableView!
     
@@ -71,6 +71,6 @@ class PlacesViewController: UIViewController,UITableViewDelegate , UITableViewDa
         return Cell
     }
     
-
-
+    
+    
 }

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import SVProgressHUD
 class NewsFeedViewController: UIViewController ,UITableViewDelegate , UITableViewDataSource{
    
     
@@ -44,7 +44,7 @@ class NewsFeedViewController: UIViewController ,UITableViewDelegate , UITableVie
         super.viewDidLoad()
         PostsTableView.dataSource = self
         PostsTableView.delegate = self
-       
+        SVProgressHUD.dismiss()
         
 
     }
